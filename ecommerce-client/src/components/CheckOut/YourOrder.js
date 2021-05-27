@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { formatNumber } from "../../config/TYPE";
 import PaypalCheckoutButton from "./PaypalCheckoutButton";
-import { config } from "../../config";
 class YourOrder extends Component {
   constructor(props) {
     super(props);
