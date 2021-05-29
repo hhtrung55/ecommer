@@ -1,6 +1,6 @@
 export const config = {
   api: {
-    url: 'http://13.250.120.98/api/v1'
+    url: 'http://trungbk.ga/api/v1'
   },
   paypal: {
     secretKey: "Ac6k_o_esJNKcmhZnhbIzg2T5fo_JsPKshHX69W3SOknD6pA-HBeEZDucBa1K5G22JOY2gHHEuI0TFp4"
