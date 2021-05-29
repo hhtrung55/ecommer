@@ -4,7 +4,6 @@ import { connect } from 'react-redux'
 import { Redirect } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Recaptcha from 'react-recaptcha'
 import { startLoading, doneLoading } from '../../utils/loading'
 import { Link } from 'react-router-dom'
 toast.configure()
@@ -93,14 +92,6 @@ class Login extends Component {
               <div className="col-md-4">
                 <button className="register-button mt-0 mb-3">Login</button>
               </div>
-              {/* <div className="col-md-8">
-                <Recaptcha
-                  sitekey="6Lcd9sEUAAAAAAEj4w9sjBETFKCPXVmcPelQzGjK"
-                  render="explicit"
-                  verifyCallback={(res) => this.verifyCallback(res)}
-                  onloadCallback={this.recaptchaLoaded}
-                />
-              </div> */}
             </div>
           </div>
         </form>
