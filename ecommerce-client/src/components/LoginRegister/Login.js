@@ -17,7 +17,7 @@ class Login extends Component {
     this.state = {
       email: "",
       password: "",
-      isVerified: false
+      isVerified: true
     }
   }
 
@@ -93,14 +93,14 @@ class Login extends Component {
               <div className="col-md-4">
                 <button className="register-button mt-0 mb-3">Login</button>
               </div>
-              <div className="col-md-8">
+              {/* <div className="col-md-8">
                 <Recaptcha
                   sitekey="6Lcd9sEUAAAAAAEj4w9sjBETFKCPXVmcPelQzGjK"
                   render="explicit"
                   verifyCallback={(res) => this.verifyCallback(res)}
                   onloadCallback={this.recaptchaLoaded}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </form>
